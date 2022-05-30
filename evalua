@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit2 C2</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #banner {
+
+      height: 300px;
+      width: 90%;
+      border: 1px solid black;
+      margin: auto;
+      background-color: #242d7d;
+      margin-top: 10px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+    }
+
+    #banner>div:nth-child(1) {
+      height: 80%;
+      width: 30%;
+      margin: auto;
+      margin-top: 10px;
+      border-radius: 20px;
+      margin: auto;
+
+    }
+
+    #banner>div>h1 {
+      color: aliceblue;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    #banner>div>p {
+      color: aliceblue;
+      margin-bottom: 10px;
+    }
+
+    #banner>div>button {
+      padding: 7px;
+      border-radius: 10px;
+      color: black;
+      background-color: white;
+
+    }
+
+    #banner>div:nth-child(2) {
+      height: 97%;
+      width: 30%;
+      margin: auto;
+      margin-top: 10px;
+      border-radius: 20px;
+    }
+
+    #banner>div>img {
+      height: 100%;
+      width: 100%;
+
+    }
+
+    #services {
+      height: 300px;
+      width: 13%;
+      background-color: #adcfed;
+      margin: auto;
+      padding: 20px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 5px;
+
+
+    }
+
+    #services img {
+      height: 180px;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 14px;
+
+
+    }
+
+    #services>div>h1 {
+      height: 280px;
+      width: 90%;
+      margin-top: 20px;
+
+
+    }
+
+    #services>div>p {
+
+      margin-top: 15px;
+      color: cornsilk;
+
+    }
+
+    #works {
+      text-align: center;
+      margin: auto;
+    }
+
+    #works div {
+
+      height: 250px;
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      display: flex;
+
+    }
+
+    #works>div>div {
+
+      height: 90%;
+      width: 30%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 15px;
+
+    }
+
+    #works>div>div>img {
+
+      height: 100%;
+      width: 100%;
+
+    }
+
+
+
+
+    /* Medium Screen */
+    @media only screen and (min-width: 500px) and (max-width: 768px) {}
+
+    /* Small Screen */
+    @media only screen and (min-width: 320px) and (max-width: 499px) {}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="banner">
+      <!-- Here should be 2 divs one for the banner heading and button and the second is for banner image -->
+
+      <div>
+        <h1>You are in safe hand</h1>
+        <p> Choose the expert in end to end Surgical care</p>
+        <button>Know More</button>
+      </div>
+
+      <div>
+        <img id="img" src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png"
+          alt="Loading..">
+      </div>
+    </div>
+    <div id="services">
+      <!-- Here should be 6 divs. All of them should be in a single line for large screen. For medium and large screen refer to question statement -->
+      <div>
+        <img id="img"
+          src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png"
+          alt="Loading..">
+        <div ba>
+          <h2>Instant Video consultation</h1>
+            <p>Connect within 60sec</p>
+        </div>
+      </div>
+    </div>
+    <div id="works">
+      <h1>Book an appointment for an in-clinic consultation</h1>
+      <p>Find experienced doctors across all specialties</p>
+      <div>
+        <!-- Here should be 8 divs. They should be in 4 colums and two rows for large screen.For medium and large screen refer to question statement -->
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="">
+      
+        </div>
+        
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="">
+        </div>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="">
+        </div>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+
+</html>
